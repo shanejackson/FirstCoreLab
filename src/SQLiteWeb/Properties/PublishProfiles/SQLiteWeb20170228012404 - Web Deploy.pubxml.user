@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnx/r5dBRFEWasHOQKt1jAwAAAAACAAAAAAAQZgAAAAEAACAAAAD6lS+JdwztaZbpRAPrGP12Om0/gR7XwJn/7zbUZVaExgAAAAAOgAAAAAIAACAAAABhFKystMCU2VoZL4ogVVPwAjMWHiBQ7wku86BtfDmkM4AAAACBG5lhfC0sK05jmK4FHQeC6ATskCEp9vu7D1O5D5g24sYD4f76KQks3FkbFd4Z8UGfXGBl9lKURI69E0PgKWUnUW0+IbZTGpotjzBkmfSeaQhzfPImMadSzWvb+jDcUHeH6MQ05KtWK8SxV6Cozg7XCYayhwbTLJWMFBwp8M3JGkAAAACHrKW5wAtcggc89E6zSRRKlac1mcIEfpd7hxmrwVIKrgQXIBz4L4tjI2TqtUCta/mlSNaECcqP9UrFBvPtmCWa</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EfMigrations Include="SQLiteWeb.Models.SchoolContext">
+      <Value>Data Source=school-db.sqlite</Value>
+    </EfMigrations>
+  </ItemGroup>
+</Project>
